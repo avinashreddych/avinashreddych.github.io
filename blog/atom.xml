@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://avinashreddych.github.io/blog</id>
-    <title>Avinash Reddy WebSpace Blog</title>
+    <title>Avinash Reddy WebPark Blog</title>
     <updated>2022-08-13T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://avinashreddych.github.io/blog"/>
-    <subtitle>Avinash Reddy WebSpace Blog</subtitle>
+    <subtitle>Avinash Reddy WebPark Blog</subtitle>
     <icon>https://avinashreddych.github.io/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[First Post]]></title>
