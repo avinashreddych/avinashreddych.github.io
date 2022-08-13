@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[357],{8232:(e,t,s)=>{s.r(t),s.d(t,{default:()=>c});var a=s(7294);function c(){return a.createElement("h1",{className:"text-center"},"hello")}}}]);
