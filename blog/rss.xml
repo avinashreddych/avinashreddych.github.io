@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Avinash Reddy WebSpace Blog</title>
+        <link>https://avinashreddych.github.io/blog</link>
+        <description>Avinash Reddy WebSpace Blog</description>
+        <lastBuildDate>Sat, 13 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[First Post]]></title>
+            <link>https://avinashreddych.github.io/blog/post1</link>
+            <guid>post1</guid>
+            <pubDate>Sat, 13 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is my first blog post]]></description>
+            <content:encoded><![CDATA[<p>This is my first blog post</p>]]></content:encoded>
+            <category>hello</category>
+        </item>
+        <item>
+            <title><![CDATA[Zero Post]]></title>
+            <link>https://avinashreddych.github.io/blog/post0</link>
+            <guid>post0</guid>
+            <pubDate>Thu, 11 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This is avinash]]></description>
+            <content:encoded><![CDATA[<p>This is avinash</p>]]></content:encoded>
+            <category>hello</category>
+        </item>
+    </channel>
+</rss>
