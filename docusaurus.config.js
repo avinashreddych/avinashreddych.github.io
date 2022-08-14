@@ -11,7 +11,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Avinash Reddy WebSpace',
+  title: 'Avinash Reddy WebPark',
   tagline: 'Personal Website',
   url: 'https://avinashreddych.github.io',
   baseUrl: '/',
@@ -24,7 +24,9 @@ const config = {
   organizationName: 'avinashreddych', // Usually your GitHub org/user name.
   projectName: 'avinashreddych.github.io', // Usually your repo name.
 
+  deploymentBranch: 'gh-pages',
 
+  trailingSlash: false,
   plugins: [
     async function myPlugin(context, options) {
       return {
@@ -41,7 +43,8 @@ const config = {
 
   presets: [
     [
-      'classic',
+      // 'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
@@ -69,18 +72,44 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Avinash Reddy WebSpace',
+        title: 'Avinash Reddy WebPark',
 
         items: [
-          {
-            type: 'doc',
-            docId: 'intro',
-            position: 'right',
-            label: 'Tutorials',
-          },
+          // {
+          //   type: 'doc',
+          //   docId: 'intro',
+          //   position: 'right',
+          //   label: 'Tutorials',
+          // },
           { to: 'blog', label: 'MyBlog', position: 'right' },
           // Please keep GitHub link to the right for consistency.
 
+
+
+          {
+            type: 'dropdown',
+            label: 'Notes',
+            position: 'right',
+            items: [
+              {
+                label: 'Python',
+                href: '/docs/Python/intro',
+              },
+              {
+                label: "Bash",
+                href: '/docs/Bash/intro',
+              },
+              {
+                label: "DeepLearning",
+                href: "/docs/DeepLearning/intro",
+              },
+              {
+                label: "English Grammar",
+                href: "/docs/EnglishGrammar/intro"
+              },
+              // ... more items
+            ],
+          },
 
           {
             to: "https://github.com/avinashreddych",
@@ -90,13 +119,42 @@ const config = {
 
         ],
       },
-      // footer: {
-      //   style: 'dark',
-
-
-      //   // Please do not remove the credits, help to publicize Docusaurus :)
-      //   // copyright: `Copyright © ${new Date().getFullYear()} Meta Platforms, Inc. Built with Docusaurus.`,
-      // },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: "Summary",
+            items: [
+              {
+                label: "Notes",
+                href: "/docs"
+              }
+            ]
+          },
+          {
+            title: "Social",
+            items: [
+              {
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/in/avinash-reddy-b81945177/",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/avinashredddych",
+              }
+            ]
+          },
+          {
+            title: "Contact",
+            items: [
+              {
+                label: "mailboxofavinash@gmail.com",
+                href: "mailto:mailboxofavinash@gmail.com?subject= From Personal Website& body=Hello Avinash!"
+              }
+            ]
+          }
+        ]
+      },
     }),
 
   staticDirectories: ['public', 'static'],

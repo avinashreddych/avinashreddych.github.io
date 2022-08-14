@@ -19,6 +19,7 @@
 @tailwind utilities;
 
 
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -40,3 +41,5 @@
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
 }
+
+

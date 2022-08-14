@@ -1,3 +1,3 @@
-# Deep Learinggggggggggggggggggggggggggggggggggggggggggggggggggggggg
+# Deep Learing
 
-Pytorch and Tensorflow
+Theory and Practical Tutorials Coming Soon

@@ -1,3 +1,3 @@
-# OOPS!
+# OOPS
 
-object oriented programming
+object oriented programming strategies Coming soon

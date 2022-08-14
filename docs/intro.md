@@ -16,13 +16,11 @@ I try to teach the best way i can
 
 Watching videos is time consuming, I prefer text based content.
 
-### What you get
+## What you get
 
-Mostly text based tutorials like blog posts.
-But if i feel a topic should be taught in video mode, I'll embed the YouTube video in this website.
+Mostly text based tutorials like blog posts. <br/>
+If i feel a topic should be taught in video mode, I'll embed the YouTube video in this website.
 
-#### Let's Get Started
 
-```
-This is a code block
-```
+
+
